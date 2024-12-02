@@ -11,7 +11,9 @@ import mongoose from "mongoose"; // 導入 mongoose 套件使用
 import cors from "cors"; // 引入 CORS 套件
 import dotenv from "dotenv"; //引入 dotenv 套件
 import swaggerUi from "swagger-ui-express";
-import swaggerFile from "./swagger_output.json" assert { type: "json" };
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const swaggerFile = require("./swagger_output.json");
 
 const app = express();
 
