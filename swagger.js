@@ -11,11 +11,11 @@ const doc = {
     description: "鸚鸚食堂 api",
   },
   // * 開發
-  host: "localhost:4000",
-  schemes: ["http", "https"],
+  //   host: "localhost:4000",
+  //   schemes: ["http", "https"],
   // * 部署
-  // host: "parrot-api.2fishs.com",
-  // schemes: ["https"],
+  host: "https://foodapi-vxv3.onrender.com",
+  schemes: ["https"],
 
   basePath: "/",
   tags: [

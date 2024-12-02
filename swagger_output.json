@@ -5,7 +5,7 @@
     "title": "parrot api",
     "description": "鸚鸚食堂 api"
   },
-  "host": "localhost:4000",
+  "host": "https://foodapi-vxv3.onrender.com",
   "basePath": "/",
   "tags": [
     {
@@ -30,7 +30,6 @@
     }
   ],
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
